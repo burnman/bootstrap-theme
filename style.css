@@ -1,0 +1,101 @@
+/*navbar*/
+.navbar {
+    min-height: 80px;
+}
+.navbar-theme {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 0;
+    border: none;
+}
+.navbar-theme .navbar-nav>li {
+    margin: 0 10px;
+}
+.navbar-theme .navbar-nav>li>a {
+    padding: 24px 10px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.navbar-theme .navbar-brand {
+    height: 80px;
+    padding: 20px 15px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #8cc63f;
+    border-bottom: 2px solid #8cc63f;
+}
+.navbar-theme .navbar-nav>.active>a, .navbar-theme .navbar-nav>.active>a:focus, .navbar-theme .navbar-nav>.active>a:hover {
+    color: #8cc63f;
+    border-bottom: 2px solid #8cc63f;
+}
+.navbar-theme .navbar-toggle {
+    margin: 23px 15px 23px 0;
+}
+.navbar-theme .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+/*footer*/
+.footer-wrap {
+    min-height: 178px;
+    color: #999;
+    background-color: #34373a;
+}
+.footer-content {
+    min-height: 127px;
+}
+.footer-links {
+    float: left;
+    margin: 50px 0;
+}
+.footer-links li a {
+    color: #999;
+    line-height: 27px;
+}
+.footer-links li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-copyright {
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+.sns {
+    float: right;
+    margin-top: 40px;
+}
+.sns .rss, .sns .twitter, .sns .facebook {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    width: 48px;
+    height: 48px;
+    margin-left: 18px;
+    background-image: url(images/sns.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.sns .twitter {
+    background-position: -66px 0;
+}
+.sns .facebook {
+    background-position: -131px 0;
+}
+
+
+@media (max-width: 768px) {
+.footer-content {
+    text-align: center;
+}
+.footer-links, .sns {
+    float: none;
+    margin: 20px 0;
+}
+}
